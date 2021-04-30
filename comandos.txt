@@ -1,0 +1,25 @@
+COMANDOS PHPUNIT
+https://windows.php.net/download/
+DESCARGAR EL ZIP
+EXTRAER EL ZIP
+ADD THE PATH TO THIS FOLDER TO THE SYSTEM PATH ENVIRONMENT VARIABLES
+
+https://getcomposer.org/doc/00-intro.md#installation-windows
+DESCARGAR EL .EXE
+
+DENTRO DE LA CARPETA DEL PROYECTO
+ABRIR POWERSHELL
+DESCARGAMOS PHPUNIT
+composer require --dev phpunit/phpunit
+ASIGNAMOS UN ALIAS A LA RUTA PARA LLAMAR A PHPUNIT CON PHPUNIT DIRECTAMENTE
+Set-Alias -Name phpunit -Value "./vendor/bin/phpunit"
+
+https://phpunit.readthedocs.io/es/latest/index.html
+https://phpunit.readthedocs.io/en/7.4/configuration.html
+
+composer dump-autoload
+
+MOCKERY
+http://docs.mockery.io/en/latest/
+http://docs.mockery.io/en/latest/reference/phpunit_integration.html
+composer require mockery/mockery --dev
